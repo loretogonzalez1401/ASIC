@@ -1,0 +1,49 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : top_WIDTH8
+Version: M-2016.12-SP5-3
+Date   : Thu Jan 17 10:28:39 2019
+****************************************
+
+
+Library(s) Used:
+
+    op_cond_typ (File: /home/user5/loreto/DClab0/LAB1/libs/nldm_op_cond_typ.db)
+
+
+Operating Conditions: op_cond_typ   Library: op_cond_typ
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 3.3  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1uW
+
+
+  Cell Internal Power  =  21.0475 mW   (63%)
+  Net Switching Power  =  12.1260 mW   (37%)
+                         ---------
+Total Dynamic Power    =  33.1736 mW  (100%)
+
+Cell Leakage Power     =  85.1809 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register          13.8407            0.1787        1.6293e-02           14.0194  (  42.26%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      7.2068           11.9473        6.8888e-02           19.1542  (  57.74%)
+--------------------------------------------------------------------------------------------------
+Total             21.0475 mW        12.1260 mW     8.5181e-02 uW        33.1736 mW
+1

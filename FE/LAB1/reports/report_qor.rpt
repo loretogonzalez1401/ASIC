@@ -1,0 +1,84 @@
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : qor
+Design : top_WIDTH8
+Version: M-2016.12-SP5-3
+Date   : Thu Jan 17 10:28:39 2019
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:              36.00
+  Critical Path Length:         22.88
+  Critical Path Slack:         -23.74
+  Critical Path Clk Period:      2.00
+  Total Negative Slack:       -862.44
+  No. of Violating Paths:       44.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          6
+  Hierarchical Port Count:        207
+  Leaf Cell Count:               2409
+  Buf/Inv Cell Count:             928
+  Buf Cell Count:                  42
+  Inv Cell Count:                 886
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:      2365
+  Sequential Cell Count:           44
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:   290504.165169
+  Noncombinational Area: 22325.760132
+  Buf/Inv Area:          89352.001297
+  Total Buffer Area:          6462.72
+  Total Inverter Area:       82889.28
+  Macro/Black Box Area:      0.000000
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:            312829.925301
+  Design Area:          312829.925301
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          2459
+  Nets With Violations:           194
+  Max Trans Violations:           194
+  Max Cap Violations:              18
+  -----------------------------------
+
+
+  Hostname: track1
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.52
+  Logic Optimization:                 40.34
+  Mapping Optimization:               85.29
+  -----------------------------------------
+  Overall Compile Time:              137.70
+  Overall Compile Wall Clock Time:   138.83
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 23.74  TNS: 862.44  Number of Violating Paths: 44
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1
